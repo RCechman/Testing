@@ -1,0 +1,32 @@
+.background    { background-image: url("images/Level 1.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.bird          { background-image: url(images/badbird.gif);
+                 background-size: 20px 20px}
+.fire          { background-image: url(images/obstacle1.gif);
+                background-size: 20px 20px }
+.wall          { background-image: url("images/Cloud2.png");
+                 background-size: 20px 20px}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/flower.png");
+          background-size: 20px 20px}
+.player { background-image: url("images/Character.gif");
+          background-size: 50px 50px}
+.snowflake { background-image: url (images/snowflake.png);
+            background-size: 20px 20px }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: black;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
