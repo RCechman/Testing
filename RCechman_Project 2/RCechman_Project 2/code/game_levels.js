@@ -112,5 +112,5 @@ var GAMExLEVELS = [
  ],
  ];
 
-if (typeof module != "undefined" && modulexexports)
-  modulexexports = GAMExLEVELS;
+if (typeof module != "undefined" && module.exports)
+  module.exports = GAME_LEVELS;
